@@ -6,7 +6,7 @@
 .markdown-preview-section code.hljs {
   font-size: 12px !important;      /* change this number to taste */
   line-height: 1.45 !important;
-  font-family: Menlo, Monaco, "Courier New", monospace !important;
+  font-family: inherit;
   letter-spacing: -0.3287px;
 }
 
