@@ -1,0 +1,19 @@
+/* markdown-preview global overrides: change code block font size */
+.markdown-preview-section pre,
+.markdown-body pre,
+.markdown-preview-section pre > code,
+.markdown-body pre > code,
+.markdown-preview-section code.hljs {
+  font-size: 12px !important;      /* change this number to taste */
+  line-height: 1.45 !important;
+  font-family: Menlo, Monaco, "Courier New", monospace !important;
+  letter-spacing: -0.3287px;
+}
+
+/* inline code */
+.markdown-preview-section p > code,
+.markdown-body p > code,
+.markdown-preview-section :not(pre) > code {
+  font-size: 0.9em !important;
+  letter-spacing: -0.3287px;
+}
